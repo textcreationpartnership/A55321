@@ -1,0 +1,659 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The poll-act abridged and methodized</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1695</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 31 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A55321</idno>
+            <idno type="STC">Wing P2771</idno>
+            <idno type="STC">ESTC R218991</idno>
+            <idno type="EEBO-CITATION">99830533</idno>
+            <idno type="PROQUEST">99830533</idno>
+            <idno type="VID">34985</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A55321)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 34985)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2075:05)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The poll-act abridged and methodized</title>
+               </titleStmt>
+               <extent>7, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>printed by Andrew Crook, printer to the Kings Most Excellent Majesty,</publisher>
+                  <pubPlace>[Dublin :</pubPlace>
+                  <date>1695]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Imprint from colophon.</note>
+                  <note>Copy has print show-through, affecting text.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Poll tax --  Ireland --  Early works to 1800.</term>
+               <term>Ireland --  History --  War of 1689-1691 --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-03</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-04</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2010-04</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="abridgment_of_act">
+            <pb n="1" facs="tcp:34985:1" rendition="simple:additions"/>
+            <head>The POLL-ACT Abridged and Methodized.</head>
+            <div type="part">
+               <head>Perſons wholly Exempt from the <hi>Poll-Act.</hi>
+               </head>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 16.</head>
+                  <p>ALL Foreign Proteſtant Refugees.</p>
+                  <p>All Widows who are Diſcharged from Hearth-Money.</p>
+                  <p>All Officers in the Army who ſhall actually leave this Kingdom in Obedience to the King's Command.</p>
+                  <p>Every Perſon who ſerved as an Officer in <hi>Londonderry</hi> or <hi>Enniskillin</hi> during the Siege of <hi>Londonderry,</hi> who is ſince Reformed or Dis<g ref="char:EOLhyphen"/>banded, and who hath no Free-hold Eſtate within this Kingdom—And the Wi<g ref="char:EOLhyphen"/>dows of ſuch.</p>
+                  <p>All Widows of any Officer or Soldier who ſhall he ſuch at the time of the Execution of this Act and who have no Freehold in this Kingdom, and whoſe late Husband being Of<g ref="char:EOLhyphen"/>ficer or Soldier died or was killed in His Ma<g ref="char:EOLhyphen"/>jeſties Service during the late Rebellion.</p>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 18</head>
+                  <p>All Perſons who receive Alms, and ſo Cer<g ref="char:EOLhyphen"/>tified by the Miniſter of the Pariſh, or next Juſtice of the Peace.</p>
+               </div>
+            </div>
+            <div type="part">
+               <head>Perſons Exempt in part, or <hi>quo ad hoc.</hi>
+               </head>
+               <list>
+                  <item>
+                     <hi>Thomas Hughs,</hi> in reſpect of his Penſion of 25<hi>
+                        <abbr>l.</abbr> per Annum. <hi>Folio</hi>
+                     </hi> 11</item>
+                  <item>All private Soldiers and Seamen in the Kings Service, in reſpect of their Poll. <hi>Folio</hi> 17</item>
+                  <item>All who ſerved as private Soldiers in <hi>London<g ref="char:EOLhyphen"/>derry</hi> or <hi>Enniskillin.</hi> Their Wives, Widows and Children, in reſpect of their Poll. <hi>Fo.</hi> 18</item>
+                  <item>None to pay for more then two Children under the Age of Sixteen, who only pay one Shilling for Poll. <hi>Folio</hi> 4</item>
+                  <item>All who are or have the Reputation of a Gentleman, and not being worth ten pound in Worldly Subſtance, shall pay only five shil<g ref="char:EOLhyphen"/>lings. <hi>Folis</hi> 17</item>
+                  <item>Nor shall any French Reformed Officer (be<g ref="char:EOLhyphen"/>ing a Proteſtant) <hi>ibidem</hi>
+                  </item>
+                  <item>Nor Officer of the Kings Cuſtoms whoſe Salary exceeds not ten pound <hi>per Annum</hi> be Taxed as a Gentleman. <hi>ibidem</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="part">
+               <head>Perſons Exempt from pay<g ref="char:EOLhyphen"/>ment for Salary.</head>
+               <list>
+                  <item>No Officer belonging to the Revenue whoſe Salary exceeds not forty pound <hi>per Annum</hi> shall be Taxed in relation to his Salary. <hi>Fol.</hi> 17</item>
+                  <item>Nor any Officer of the Royal Hoſpital whoſe Salary exceeds not 30<hi>
+                        <abbr>l.</abbr> per. annum. <hi>Folio</hi>
+                     </hi> 19</item>
+                  <item>Nor any Town-Major or Fort-Major. <hi>ibid</hi>
+                  </item>
+                  <item>Nor Chaplain or Chirurgeon to any Regi<g ref="char:EOLhyphen"/>ment. <hi>ibid</hi>
+                  </item>
+                  <item>Nor any Officer in the Army under degree of a Captain be Taxed for or in reſpect of their pay. <hi>ibid.</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="part">
+               <head>Batchellour.</head>
+               <list>
+                  <item>None to be Taxed as ſuch who by this Act is Charged, and ought to pay for his Poll one shilling and no more. <hi>Folio</hi> 18</item>
+                  <item>Nor any being a Menial Servant. <hi>ibid</hi>
+                  </item>
+                  <item>Nor any Officer being in this Majeſties Ar<g ref="char:EOLhyphen"/>my. <hi>ibid</hi>
+                  </item>
+                  <item>Nor Provoſt, Fellow or Schollar of the Colledge shall be Taxed as a batchellour. <hi>Folio</hi> 19.</item>
+               </list>
+            </div>
+            <div type="part">
+               <head>Clergy Exempted <hi>quo ad hoc.</hi>
+               </head>
+               <list>
+                  <item>None to be Taxed as a Pluraliſt who hath his Benefices Contiguous, and lives in one of the ſaid Parishes whereof he is Incumbent, where the ſaid Parishes are not worth a hun<g ref="char:EOLhyphen"/>dred pound, or more, <hi>per annum. <hi>Folio</hi>
+                     </hi> 16</item>
+                  <item>No Doctor in Divinity to be charged for his Quality, having no Eccleſiastical Preferment <hi>Folio</hi> 19</item>
+                  <pb n="2" facs="tcp:34985:2"/>
+                  <item>The Widow of an Eccleſiaſt not to pay af<g ref="char:EOLhyphen"/>ter her late Husbands Quality. <hi>ibidem</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="part">
+               <head>Poll.</head>
+               <list>
+                  <item>One Shilling <hi>per</hi> Poll to be paid by every Perſon of what Age, ſex, or Condition ſo<g ref="char:EOLhyphen"/>ever. <hi>Folio</hi> 4</item>
+               </list>
+            </div>
+            <div type="part">
+               <head>Clergy Taxed.</head>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 4</head>
+                  <list>
+                     <item>Arch-Bishop fifty pound</item>
+                     <item>Bishop, twenty pound</item>
+                     <item>Dean, ten pound</item>
+                     <item>Arch-deacon, five pound</item>
+                     <item>Cannon, two pound ten shillings</item>
+                     <item>Prebend, two pound ten shillings</item>
+                     <item>Doctor of Divinity, five pound</item>
+                     <item>Pluraliſt of Benefices, with Cure of a hun<g ref="char:EOLhyphen"/>dred pound <hi>per annum,</hi> or more, five pound.</item>
+                     <item>Parſon of one Benefice, with Cure, of a hun<g ref="char:EOLhyphen"/>dred pound <hi>per annum,</hi> three pound.</item>
+                     <item>Parſon of one or more Benefices, with Core, of fifty pound and under a hundred pound <hi>per Annum,</hi> twenty shillings.</item>
+                  </list>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 5.</head>
+                  <p>
+                     <hi>Sine</hi> Cure, of a hundred pound <hi>per annum,</hi> and <hi>pro rata,</hi> over or under, ten pound</p>
+                  <p>Non-Reſident on a ſingle Cure, or having more, and not Rending on any one, of a hun<g ref="char:EOLhyphen"/>dred pound <hi>per annum,</hi> and <hi>pro rata,</hi> over or under, ten pound</p>
+                  <p>For all Parſons whoſe Benefices, with Cure, do not in all amount to fifty pound <hi>per annum,</hi> ten shillings.</p>
+               </div>
+            </div>
+            <div type="part">
+               <head>Every Perſon who ſhall be in this Kingdom, or hath any Eſtate in Lands, Te<g ref="char:EOLhyphen"/>nements, or Heredita<g ref="char:EOLhyphen"/>ments therein, ſhall pay,</head>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 5.</head>
+                  <p>Duke, fifty pound. His Eldeſt son, thirty pound. Every Younger son, twenty five pound.</p>
+                  <p>Marqueſi, forty pound. His Eldeſt son, twenty five pound. Every Younger son, twenty pound.</p>
+                  <p>Earl, thirty pound. His Eldeſt son, twen<g ref="char:EOLhyphen"/>ty pound. Every Younger son, Fifteen pound.</p>
+                  <p>Viſcount, twenty five pound. His Eldeſt son, ſeventeen pound, ten shillings. Every Young<g ref="char:EOLhyphen"/>er son, thirteen pound, ſix shillings, and eight pence.</p>
+                  <p>Baron, twenty pound. His Eldeſt son, Fifteen pound. Every Younger son, twelve pound.</p>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 6.</head>
+                  <p>Each Woman having Title of a Peereſs of this Kingdom, or who takes place as ſuch Re<g ref="char:EOLhyphen"/>ſiding or having any Eſtate in Lands, or other<g ref="char:EOLhyphen"/>wiſe, in this Kingdom, shall pay equal with any Peer of the ſame Degree.</p>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 7.</head>
+                  <p>Every Widow of a Nobleman (tho' ſince Married to a Commoner) shall pay one third of what her Husband being a Peer, or reputed Peer of this Kingdom, ought to have paid had he been living at the time of Execution of this Act.</p>
+                  <p>Every Widow shall pay one third on that Degree which her Husband if living would have been rated at.</p>
+                  <p>Baronet, Fifteen pound</p>
+                  <p>Knight of the Bath, Fifteen pound.</p>
+                  <p>Knight, ten pound</p>
+                  <p>Each of the King's Serjeants at Law, twenty pound</p>
+                  <p>Each Gentleman or reputed Gentleman a<g ref="char:EOLhyphen"/>bove ſixteen Years, one pound</p>
+                  <p>Each Eſquire or reputed Eſquire, being of ſixteen years, or more, five pound</p>
+                  <list>
+                     <item>Doctor of Law<g ref="char:punc">▪</g> Five pound <hi>Folio</hi> 
+                        <gap reason="illegible" resp="#OXF" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </item>
+                     <item>Doctor of Phyſick, Five pound <hi>ibid</hi>
+                     </item>
+                     <item>Servants having three pound <hi>per annum</hi> (or more) Wages, to pay one shilling <hi>per</hi> pound <hi>Folio</hi> 1<gap reason="illegible" resp="#OXF" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </item>
+                     <item>Servants under three pound <hi>per annum,</hi> Wa<g ref="char:EOLhyphen"/>ges, to pay ſix pence <hi>per</hi> pound thereout <hi>ibid</hi>
+                     </item>
+                     <item>To be paid by their Maſters or Miſtreſſes, and by them deducted out of their Wages. <hi>Folio</hi> 46</item>
+                  </list>
+               </div>
+            </div>
+            <div type="part">
+               <head>Debts.</head>
+               <list>
+                  <item>Every perſon (as well bodies Politick or Corporate as otherwiſe) having ſperate debts (other then from the King) over and above what themſelves <hi>bona fide</hi> owe, shall pay ten shillings for every hundred pound thereof. <hi>Folio</hi> 13</item>
+               </list>
+            </div>
+            <div type="part">
+               <head>Perſonal Eſtate.</head>
+               <list>
+                  <item>Every Perſon being worth a hundred pound in perſonal Eſtate (who is not herein after Ra<g ref="char:EOLhyphen"/>ted at more then five shillings as a Shop keep<g ref="char:EOLhyphen"/>ee<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>) shall pay for that hundred pound, ten shillings. <hi>Folio</hi> 1<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </item>
+                  <pb n="3" facs="tcp:34985:3" rendition="simple:additions"/>
+                  <item>Every perſon worth two hundred pound therein, (and not Rated as a Shopkeeper) ſhall pay one pound. <hi>ibid</hi>
+                  </item>
+                  <item>Worth four hundred pound, and not Rated as a Shopkeeper, two pound. <hi>ibid</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="part">
+               <head>Coach, Chariot or Calaſh.</head>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 13</head>
+                  <p>Every perſon who keeps one or more Coach, Chariot, or Calaſh with four Wheels, for his private uſe, four pound.</p>
+                  <p>And Calaſh with two Wheels, for his private uſe, two pound. <hi>ibid</hi>
+                  </p>
+               </div>
+            </div>
+            <div type="part">
+               <head>Shopkeeper.</head>
+               <list>
+                  <item>Every Shopkeeper reſiding in this Kingdom, having in perſonal Eſtate a thouſand pounds, or above, four pound. <hi>Folio</hi> 14</item>
+                  <item>Of five hundred pound, and under a thouſand pound, two pound. <hi>ibid</hi>
+                  </item>
+                  <item>Of two hundred pound, and under five hun<g ref="char:EOLhyphen"/>dred pound, one pound. <hi>ibid</hi>
+                  </item>
+                  <item>Of one hundred pound, and under two hun<g ref="char:EOLhyphen"/>dred, ten ſhillings. <hi>ibid</hi>
+                  </item>
+                  <item>Each other Shopkeeper not Rated as above, five ſhillings. <hi>ibid</hi>
+                  </item>
+                  <item>Every perſon uſing any Trade or Manual Oc<g ref="char:EOLhyphen"/>cupation, ſhall for their perſonal Eſtate pay <hi>pro rata,</hi> as Shopkeeper. <hi>Folio</hi> 15</item>
+                  <item>Gray-Merchant, Merchant Travellor, or Pedlar, who uſually Travels with a Horſe, one pound. <hi>ibid</hi>
+                  </item>
+                  <item>Travelling without a Horſe, ten ſhillings. <hi>ib</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="part">
+               <head>Merchant— Adventurer, Factor or Exchanger.</head>
+               <list>
+                  <item>For every hundred pound, <hi>bona fide,</hi> worth above his Debts, ten ſhillings. <hi>Folio</hi> 15</item>
+                  <item>Each Merchant Reſiding or Trading in any Town or Corporation, and not being Free thereof, ſhall pay double the ſumm charged on ſuch as are free. <hi>ibid</hi>
+                  </item>
+                  <item>Every perſon above the Age of thirty years, being a Batchellor, ſhall pay double the ſumm he is Charged with on account of his Qua<g ref="char:EOLhyphen"/>lity. <hi>Folio</hi> 15</item>
+               </list>
+            </div>
+            <div type="part">
+               <head>Aſſuming of Titles.</head>
+               <list>
+                  <item>Every perſon who at any time before or ſince the firſt Sitting of this Parliament, hath (or hereafter ſhall) by Words, Writing or other<g ref="char:EOLhyphen"/>wiſe, Aſſumed, or taken upon him the Name, or Title of Duke, Marqueſs, Earl, Viſcount, or Baron of this Kingdom, or Baronet, or Knight, altho' he has no Right thereto, he ſhall pay as if he had Right, or were re<g ref="char:EOLhyphen"/>ally ſo. <hi>Folio</hi> 15</item>
+               </list>
+            </div>
+            <div type="part">
+               <head>Non Jurats.</head>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 19</head>
+                  <p>Every perſon (except Women) and ſuch as are Charged in this Act with one ſhilling only, and no more, under the degree of a Baron, and having an Eſtate in Lands, Goods and Chattles of the value of twenty pound, and being of the Age of ſixteen, or more, and being within this Realm at the time of the Execution of this Act, who have not already taken the Oath hereaf<g ref="char:EOLhyphen"/>ter mentioned, and who ſhall not voluntarily appear and take the Oath, (except Quakers who are to ſubſcribe a Declaration) and Sub<g ref="char:EOLhyphen"/>ſcribe the Declaration (mentioned in <hi>Fol.</hi> 54) before two or more of the Commiſſioners ſhall pay double the ſumm, which by force of any Clauſe in this Act he ought to pay, (<hi>vid <hi>Fol.</hi>
+                     </hi> 55)</p>
+               </div>
+            </div>
+            <div type="part">
+               <head>Stewards or Receivers.</head>
+               <list>
+                  <item>Every Agent, Steward, or Receiver, who receives Salary, Wages, or Profits from any perſon, or Bodies Politick or Corporate what<g ref="char:EOLhyphen"/>ſoever, of fifty pound <hi>per Ann.</hi> or under, shall pay <hi>per</hi> pound, one shilling. <hi>Folio</hi> 12</item>
+               </list>
+            </div>
+            <div type="part">
+               <head>Two ſhillings <hi>per</hi> pound to be paid out of Offices or Profeſſions.</head>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 8</head>
+                  <p>Every Barriſter, Attorney, Sollicitor, Scrive<g ref="char:EOLhyphen"/>ner, Advocate, Proctor, and Publick Notary.</p>
+                  <p>Every Curſitor, Philazer, Clerk in Chance<g ref="char:EOLhyphen"/>ry, Chancellor, Commiſſary, Official, Regi<g ref="char:EOLhyphen"/>ſter, and all other Officers in any Court what<g ref="char:EOLhyphen"/>ſoever, who receive Fees or Perquiſits by their Profeſſions or Offices, ſhall pay two ſhillings out of each twenty ſhillings which they reſpe<g ref="char:EOLhyphen"/>ctively ſhall receive by their Offices, Practices or Profeſſions in one year.</p>
+                  <list>
+                     <item>Every Town-Clerk, Treaſurer of a County, and County-Clerk, who receive Salary or Fee, ſhall pay two ſhillings out of each twenty ſhil<g ref="char:EOLhyphen"/>lings they ſhall receive by reaſon of their Salary or Office in one year. <hi>ibid</hi>
+                     </item>
+                     <item>Every of the Clerks to the Maſter of the Light-Houſes, Pay-Maſter, and Pay-Maſters-General, and his and their Deputy and Depu<g ref="char:EOLhyphen"/>ties
+<pb n="4" facs="tcp:34985:4"/>to the Lord High-Treaſurer, and Vice-Treaſurer, Commiſſioners of Appeals, Com<g ref="char:EOLhyphen"/>miſſioners of Forfeitures, Commiſſioners of Ac<g ref="char:EOLhyphen"/>counts, and to the Accomptant-General, ſhall pay two ſhillings out of each twenty-ſhillings they receive in one year, by reaſon of their be<g ref="char:EOLhyphen"/>ing Clerks to the aforeſaid Officers or Of<g ref="char:EOLhyphen"/>fices. <hi>Folio</hi> 9</item>
+                     <item>The Purſe-bearer, every Doctor and Practi<g ref="char:EOLhyphen"/>cer in Phiſick or Chirurgery; each Examiner in Chancery, and all other Officers of the High Court of Chancery, shall pay two shillings out of each twenty shillings they shall receive in one year, by reaſon of their Practice or Pro<g ref="char:EOLhyphen"/>feſſion. <hi>Folio</hi> 10</item>
+                     <item>Every Cuſtomer, Collector, Searcher, Pack<g ref="char:EOLhyphen"/>er and Gauger, Taſter, Craner and Wharſer, Comptroller of the Cuſtoms, Clerk of the Firſt Fruits, and every Clerk of the Market, shall pay two shillings for the Profits and Fees of their ſaid Employments (over and above their three shillings out of their Salaries<g ref="char:punc">▪</g>) <hi>ibid</hi>
+                     </item>
+                     <item>All and every other perſon, not before na<g ref="char:EOLhyphen"/>med, who hath any Place, Profeſſion, or Office of Profit, shall pay two shillings out of each twenty shillings they receive in one year, for or by reaſon of their Profeſſion or Office, <hi>ibid</hi>
+                     </item>
+                     <item>Stewards or Agents Receiving above fifty pound Salary, Wages, or Profit, two shil<g ref="char:EOLhyphen"/>lings <hi>per</hi> pound. <hi>Folio</hi> 12</item>
+                  </list>
+               </div>
+            </div>
+            <div type="part">
+               <head>Salaries to pay two ſhil<g ref="char:EOLhyphen"/>lings <hi>per</hi> pound.</head>
+               <list>
+                  <item>Every Town-Clerk, Treaſurer of a County, and County-Clerk; every Collector and eve<g ref="char:EOLhyphen"/>ry perſon dependant upon them, Clerk to the Commiſſioners of the Treaſury, to pay two shil<g ref="char:EOLhyphen"/>lings out of each twenty shillings they receive for Salary. <hi>Folio</hi> 8</item>
+                  <item>Alſo the Seneſchal, Judges, and other Offi<g ref="char:EOLhyphen"/>cers of the Palatinate of <hi>Tipperary,</hi> and the De<g ref="char:EOLhyphen"/>puty Poſt<g ref="char:punc">▪</g> Maſter-General, <hi>Folio</hi> 9</item>
+                  <item>Every Commiſſary of the Muſters, every Commiſſion or Warrant Officer of the Army, all Governours, or Conſtables of Caſtles, Towns or Forts, all Lieutenant-Governours of the ſame. <hi>Folio</hi> 11</item>
+                  <item>Maſter-General of the Ordinance, Lieute<g ref="char:EOLhyphen"/>nant-General of the Ordinance, Comptroller of the Ordinance, Clerk of the Ordinance, the three Engineers belonging to the Office of Or<g ref="char:EOLhyphen"/>dinnace. <hi>Folio</hi> 12</item>
+               </list>
+            </div>
+            <div type="part">
+               <head>Three ſhillings <hi>per</hi> pound to be paid out of Profeſ<g ref="char:EOLhyphen"/>ſions or Employments.</head>
+               <list>
+                  <item>Every Agent and Clerk of any Regiment or Regiments, shall pay three shillings out of each twenty shillings they receive in one year, by reaſon of their ſaid Employments. <hi>Fol.</hi> 11</item>
+               </list>
+            </div>
+            <div type="part">
+               <head>Three ſhillings <hi>per</hi> pound out of the following Sa<g ref="char:EOLhyphen"/>laries.</head>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 8</head>
+                  <p>All Judges, and every perſon having any Judicial or other Office, or place of Profit, every Maſter in Chancery, Commiſſioners of Revenue, their Secretary and Sollicitor.</p>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 9</head>
+                  <p>Maſter of the Light-Houſes, Pay-Maſter, and Pay-Maſters Gen. and their Dep. or Deputies, Lord High-Treaſ. Vice-Treaſurer, Commiſſion<g ref="char:EOLhyphen"/>ers of Appeals, Commiſſioners of Forfeitures, Commiſſioners of Accounts, Accomptant-Ge<g ref="char:EOLhyphen"/>neral, their Secretaries and Sollicitors, Clerk of the Council, every Clerk of the Crown, eve<g ref="char:EOLhyphen"/>ry Clerk of the Peace, every Clerk of <hi>Niſi pri<g ref="char:EOLhyphen"/>us,</hi> Maſter, Treaſurer, and other Officers of the Royal Hoſpital; Surveyor-General, and other Officers of the Works, Maſter of the Rolls, Clerk of the Rolls, and his Deputy, Au<g ref="char:EOLhyphen"/>ditor-General, Secretary of State, The Secre<g ref="char:EOLhyphen"/>taries to the Chief Governor, Kings-Remem<g ref="char:EOLhyphen"/>brancer of the Exchequer, Second Remembran<g ref="char:EOLhyphen"/>cer, Clerk of the Pells, Clerk of the Pipe, Clerk of the Hanaper, all other Officers of the Exche<g ref="char:EOLhyphen"/>quer and their Deputies, Every Judge Advo<g ref="char:EOLhyphen"/>cate, Every Judge of the Admiralty, Judge of the Prerogative Court.</p>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 10.</head>
+                  <list>
+                     <item>Every Cuſtomer,</item>
+                     <item>Collector</item>
+                     <item>Searcher,</item>
+                     <item>Packer and</item>
+                     <item>Gauger,</item>
+                     <item>Taſter,</item>
+                     <item>Craner and Wharfer,</item>
+                     <item>Comptroller of the Cuſt.</item>
+                     <item>Clerk of the Firſt Fruits,</item>
+                     <item>And every Clerk of the Market.</item>
+                  </list>
+                  <p>ſhall pay three ſhillings out of their Salaries and alſo two shillings out of each twenty shil<g ref="char:EOLhyphen"/>lings they receive for the profits and Fees of their ſaid Offices or Employments.</p>
+                  <p>The Muſter-Maſter-General. Phyſitian to the State. King at Arms. Serjeant at Arms. Herald at Arms. Eſcheators. Aulnager. Seal-Maſter and Weigh-Maſter.</p>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 11.</head>
+                  <p>Every perſon, and all Bodies Politick and
+<pb n="5" facs="tcp:34985:5" rendition="simple:additions"/>Corporate, or otherwiſe, who receive a yearly Penſion exceeding, twenty pound, and under Fifty pound out of any Branch of the King's Revenue, shall pay thereout <hi>per</hi> pound three shillings.</p>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 10.</head>
+                  <p>All and every other perſon whatſoever who receive from the King any Salary or Fee by reaſon of his Office, shall pay out of each twenty shillings thereof three shillings.</p>
+               </div>
+            </div>
+            <div type="part">
+               <head>Four Shilling <hi>per</hi> pound out of Penſions or Annui<g ref="char:EOLhyphen"/>ties of Fifty pound, or above, <hi>per Annum.</hi>
+               </head>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 11.</head>
+                  <p>Every perſon or perſons, Bodies Politick or Corporate, who receive yearly Penſion or An<g ref="char:EOLhyphen"/>nuity of Fifty pound or above, out of any Branch of the King's Revenue, shall pay there<g ref="char:EOLhyphen"/>out <hi>per</hi> pound four shillings.</p>
+               </div>
+            </div>
+            <div type="part">
+               <head>Quakers.</head>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 20, 21.</head>
+                  <p>Not to be Charged double if they Subſcribe the Declaration in the preſence of two or more of the Commiſſioners.</p>
+               </div>
+            </div>
+            <div type="part">
+               <head>The Money payable by this Act to be paid Quarterly, <hi>vizt.</hi>
+               </head>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 21.</head>
+                  <list>
+                     <item>The ſecond day of <hi>February.</hi>
+                     </item>
+                     <item>The ſecond day of <hi>May.</hi>
+                     </item>
+                     <item>The ſecond day of <hi>Auguſt.</hi>
+                     </item>
+                     <item>The ſecond day of <hi>November.</hi>
+                     </item>
+                  </list>
+               </div>
+            </div>
+            <div type="part">
+               <head>Aſſeſſors.</head>
+               <list>
+                  <item>Oath of Aſſeſſors <hi>Folio</hi> 43</item>
+                  <item>The Commiſſioners to appoint Aſſeſſors. <hi>Folio</hi> 38</item>
+               </list>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 39</head>
+                  <p>And read to them the Rates in the Act men<g ref="char:EOLhyphen"/>tioned, and openly declare the Effects of their Charge unto them, <hi>vizt.</hi> To bring in the Names and Surnames, Qualities, Degrees, Titles, Eſtates, Profeſſions, Imployments, and Trades of all Perſons Reſiding within their Limits. And of all other things, in reſpect whereof any perſon is or may be Chargeable by this Act.</p>
+                  <p>On pain of Forfeiting any ſum not exceed<g ref="char:EOLhyphen"/>ing Five pound.</p>
+                  <p>Alſo to Return the Names of two able Pe<gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ons for Collectors, and for whom the Pa<g ref="char:EOLhyphen"/>riſh ſhall be anſwerable.</p>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 42, 43.</head>
+                  <p>Aſſeſſors to have three pence <hi>per</hi> pound paid by the Collectors.</p>
+                  <p>Commiſſioners may Examine and Correct the Omiſſion, <hi>&amp;c.</hi> in the Aſſeſſments, within twelve days after their Receipt thereof.</p>
+               </div>
+            </div>
+            <div type="part">
+               <head>Collectors.</head>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 40</head>
+                  <p>Upon Receipt of the Aſſeſsments the Com<g ref="char:EOLhyphen"/>miſſioners, or any two, or more of them, ſhall forthwith Iſſue their Warrants to the Col<g ref="char:EOLhyphen"/>lectors for ſpeedy Levying the Monies by Di<g ref="char:EOLhyphen"/>ſtreſs.</p>
+                  <p>The Collectors are within ſix days of their Receipt of the Commiſſioners Warrant, to make demand of the Parties themſelves, or at the place of their laſt abode. And if the ſaid Collectors fail in their Duty by Neglect<g ref="char:EOLhyphen"/>ing to get in the Money, <hi>&amp;c.</hi> Two or more Commiſſioners may Iſſue Warrants under their Hands and Seals to Levy by Diſtreſs up<g ref="char:EOLhyphen"/>on the Negligent Collectors, all ſuch Summs as they have Received, and not paid in, or which they ought to have Received.</p>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 49.</head>
+                  <p>Collectors are to deliver (under their Hands and Seals) a Schedule in Parchment of the Arrears, to the Receiver appointed by the Chief Governour: And Signed and allow<g ref="char:EOLhyphen"/>ed by two or more Commiſſioners, Containing the Names, Surnames, and places of abode of every perſon within their Collection that ſhall make default of payment of any ſumms that ſhall be Aſſeſſed on them. The ſame to be Returned by him into the Exchequer,</p>
+                  <list>
+                     <item>The Monies to be paid over to ſuch as the Chief Governor ſhall Order by Proclamation ten days before the day of payment. <hi>Folio</hi> 41</item>
+                     <item>Pariſh Collector to have three pence, and Barony Collector two pence <hi>per</hi> pound. <hi>Fol</hi> 42</item>
+                     <item>No Collector to Travell above twenty Miles from his abode to pay his Money to the Coun<g ref="char:EOLhyphen"/>ty Receiver. <hi>Folio</hi> 51</item>
+                  </list>
+               </div>
+            </div>
+            <div type="part">
+               <pb n="6" facs="tcp:34985:6"/>
+               <head>Duplicate.</head>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 40.</head>
+                  <p>A Duplicate of the whole ſumm charged on each Barony, <hi>&amp;c.</hi> without Naming the Per<g ref="char:EOLhyphen"/>ſons, ſhall under the Hands and Seals of two or more of the Commiſſioners be Returned to the Court of Exchequer, by the High-Sheriff of each County, before the twenty ſeventh of <hi>January,</hi> 1695 (all Appeals being firſt determined.)</p>
+                  <list>
+                     <item>The Commiſſioners to Return ſuch Dupli<g ref="char:EOLhyphen"/>cate to the Sheriff by the twenty third of <hi>Jan<g ref="char:EOLhyphen"/>uary. <hi>Folio</hi>
+                        </hi> 53</item>
+                     <item>And the like Duplicates within thirty days of each Quarterly payment. And in conveni<g ref="char:EOLhyphen"/>ent time like Duplicates to be made out, and delivered unto the Receivers-General, ſo as they may be Charged to anſwer their Reſpe<g ref="char:EOLhyphen"/>ctive Collections, <hi>&amp;c. <hi>Folio</hi>
+                        </hi> 41</item>
+                  </list>
+               </div>
+            </div>
+            <div type="part">
+               <head>Clerk to the Commiſſi<g ref="char:EOLhyphen"/>oners.</head>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 43, 44.</head>
+                  <p>To have two pence out of each twenty ſhil<g ref="char:EOLhyphen"/>lings (to be paid him by the Receiver appoint<g ref="char:EOLhyphen"/>ed by the Chief Governour) for the carefull Writing and Tranſcribing the Warrants, E<g ref="char:EOLhyphen"/>ſtreats and Duplicates in due time— And for making Certificates upon Appeals. Three or more of the Commiſſioners giving a Warrant under their Hands to their Clerk to receive the ſaid two pence from the ſaid Receiver.</p>
+               </div>
+            </div>
+            <div type="part">
+               <head>Perſons refuſing to pay as <hi>per</hi> Act.</head>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 44, 45.</head>
+                  <p>If any perſon ſhall refuſe to pay what is charged upon him by Vertue of this Act, within ten days after demand or Notice left at his place of Reſidence by the Officer or Collector of the place, according to the Eſtreats to him delivered by the Commiſſioners the ſaid Collector is to Diſtrain, and keep the Diſtreſs for Eight days at the coſt of the owner, and then the ſaid Diſtreſs to be Appraiſed by two or more of the Inhabitants where the ſaid Diſtreſs is taken, and there to be ſold by the ſaid Officer, and the Overplus, after the Charges of taking and keeping the Diſtreſs deducted, to be Re<g ref="char:EOLhyphen"/>ſtored to the Owner— And for want of Di<g ref="char:EOLhyphen"/>ſtreſs the Party to be Committed to Goal by Warrant under the Hands and Seals of three Commiſſioners.</p>
+               </div>
+            </div>
+            <div type="part">
+               <head>Appeals.</head>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 45.</head>
+                  <p>If any perſon over Rated, do in five days af<g ref="char:EOLhyphen"/>ter demand made of his Aſſeſsment by the Col<g ref="char:EOLhyphen"/>lector, complain to three or more of the Com<g ref="char:EOLhyphen"/>miſſioners (whereof two shall be of the Com<g ref="char:EOLhyphen"/>miſſioners who Signed the ſaid Rate) the Com<g ref="char:EOLhyphen"/>miſſioners shall within ſeven days of ſuch Complaint, Examine the Parties Complaining on his or their Oaths, and thereupon abate or increaſe as to them ſhall ſeem meet. <hi>Vide fol.</hi> 48 of the Act.</p>
+               </div>
+            </div>
+            <div type="part">
+               <head>Where to be Rated.</head>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 45, 46.</head>
+                  <p>Every perſon to be Rated at ſuch place where he or ſhe with their Family ſhall be Reſi<g ref="char:EOLhyphen"/>dent, at the time of the Execution of this Act.</p>
+                  <list>
+                     <item>And every perſon not being a Houſholder, nor having a certain place for abode, ſhall be Taxed at the place where they are Reſident, at the Execution of this Act. <hi>ibid</hi>
+                     </item>
+                     <item>And if any perſon be out of the Realm, ſuch ſhall be Rated where they were laſt abiding within the Realm. <hi>Folio</hi> 46</item>
+                  </list>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 46, 47.</head>
+                  <p>If any ſhould by changing their place of re<g ref="char:EOLhyphen"/>ſidence, or by other Fraud, eſcape being Tax<g ref="char:EOLhyphen"/>ed, and the ſame be proved before two or more Commiſſioners, or before two Juſtices of the Peace of the County where ſuch perſon ſhall re<g ref="char:EOLhyphen"/>ſide, at any time within twelve Months after ſuch Taxation, ſuch perſon ſhall pay double of what he ought to have been Taxed.</p>
+               </div>
+            </div>
+            <div type="part">
+               <head>Perſons double Taxed to be Relieved.</head>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 46</head>
+                  <p>If any, having divers Manſion-Houſes or places of reſidence, ſhould thereby become doubly Taxed; upon Certificate made by two or more Commiſſioners where the party was ſo Taxed (which Certificate the Commiſ<g ref="char:EOLhyphen"/>ſioners are to give without Delay, Fee or Re<g ref="char:EOLhyphen"/>ward) under their Hands and Seals, of the ſums there Charged upon him or them; and upon Oath made of ſuch Certificate, before any Ju<g ref="char:EOLhyphen"/>ſtice of Peace of the County or place where ſuch Certificate ſhall be made, then the party ſo doubly Charged, ſhall for ſo much as ſhall be Certified, be diſcharged in every other County or place.</p>
+               </div>
+            </div>
+            <div type="part">
+               <pb n="7" facs="tcp:34985:7" rendition="simple:additions"/>
+               <head>Receivers.</head>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 51</head>
+                  <p>Every Receiver of any Barony or Diviſion, shall within a Month after his receiving the full ſumm Charged on the ſaid Barony or Diviſion, for each Quarterly Payment, give the Commiſ<g ref="char:EOLhyphen"/>ſioners (who shall Act in ſuch Barony or Divi<g ref="char:EOLhyphen"/>ſion) a Receipt under his Hand and Seal for the full ſumm Charged thereon.</p>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 49</head>
+                  <p>The Receiver appointed by Chief the Gover<g ref="char:EOLhyphen"/>nor or his Deputy, shall give Acquittances <hi>gratis</hi> to the Collectors for all Money he or they shall receive from them.</p>
+               </div>
+            </div>
+            <div type="part">
+               <head>Commiſſioners.</head>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 38</head>
+                  <p>Commiſſioners to Act in all places, as well Priviledged as not.</p>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 47</head>
+                  <p>Are to Aſſeſs each other Commiſſioner by the Major part of them: And are to Aſſeſs the Aſſeſſors.</p>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 48</head>
+                  <p>And in Caſe of Controverſy ariſing be<g ref="char:EOLhyphen"/>tween the ſaid Commiſſioners, about the ſaid Aſſeſſing, the Commiſſioners concerned therein shall have no Voice, but muſt withdraw on pain of a Fine of twenty pound.</p>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 47</head>
+                  <p>If any Aſſeſſor, Collector, Receiver, or any o<g ref="char:EOLhyphen"/>ther perſon appointed by the Commiſſioners, shall willfully Neglect, or Refuſe to perform his duty in Execution of this Act,</p>
+                  <p>Any two or more Commiſſioners may for their neglect Impoſe a Fine, not exceeding twenty pound, for any one Offence. <hi>Folio</hi> 53</p>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 48</head>
+                  <p>Any two or more Commiſſioners, shall or may, from time to time call for, and require an account from the Receivers, of what is received by them from the Collectors.</p>
+               </div>
+               <div type="section">
+                  <p>Two or more Commiſſioners may direct their Precepts or Warrants to all Conſtables, and o<g ref="char:EOLhyphen"/>ther His Majeſties Officers, requiring them to be Aiding and Aſſiſting in the Execution of this Act.</p>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 53</head>
+                  <p>Two or more Commiſſioners may be War<g ref="char:EOLhyphen"/>rant, cauſe all Penalties and Forfeitures to be Levyed by way of diſtreſs.</p>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 50</head>
+                  <p>Any perſon Moleſted or Wrongfully Sued, for what he shall do in purſuance of this Act, shall recover treble Damages.</p>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 52</head>
+                  <p>Any perſon certifying any ſumm to be in Ar<g ref="char:EOLhyphen"/>rear, which is already Received, shall forfeit treble Damages to the party, and double the ſumm to the King.</p>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 50, 51.</head>
+                  <p>The Parents, Guardians, and Tutors of all perſons under twenty one years, shall upon de<g ref="char:EOLhyphen"/>fault of payment of ſuch perſon, and upon de<g ref="char:EOLhyphen"/>mand, pay what is due by this Act, for every ſuch perſon reſiding in their Family, or under their Tuition.</p>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 55</head>
+                  <p>The Judges, Benchers, <hi>&amp;c.</hi> or any three of them, are appointed Commiſſioners to put in Execution this preſent Act.</p>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 56</head>
+                  <p>Every Housholder shall upon demand of the Aſſeſſors, give an account of the Names and Qualities of ſuch perſons as shall there lodge or Sojourn, on pain of ten pound.</p>
+               </div>
+               <div type="section">
+                  <head>
+                     <hi>Folio</hi> 49</head>
+                  <p>No Grant from the Crown, to exempt any Perſons, or Body Politicks, <hi>&amp;c.</hi> from Tolls, Taxes, <hi>&amp;c.</hi> shall be taken or conſtrued to Ex<g ref="char:EOLhyphen"/>empt them from any of the charges in this Act.</p>
+               </div>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>
+               <hi>Dublin,</hi> Printed by <hi>Andrew Crook,</hi> Printer to the Kings Moſt Excellent Majeſty. 1695.</p>
+            <pb facs="tcp:34985:8" rendition="simple:additions"/>
+         </div>
+      </back>
+   </text>
+</TEI>
